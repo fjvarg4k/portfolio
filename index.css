@@ -108,6 +108,7 @@ p {
   border-top: 1px solid #d9b310;
   padding-top: 20px;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .tech-list {
@@ -276,6 +277,7 @@ footer {
     /* display: block; */
     height: 600px;
     width: 60%;
+    max-width: 60%;
     /* max-width: 100%; */
     /* margin-left: auto; */
     /* margin-right: auto; */
@@ -293,5 +295,10 @@ footer {
 
   .project-container-right {
 
+  }
+
+  .project-btn-container {
+    flex-wrap: wrap;
+    align-self: flex-end;
   }
 }
